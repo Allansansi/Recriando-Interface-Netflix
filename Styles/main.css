@@ -1,0 +1,70 @@
+
+* {
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+}
+
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body {
+    background: var(--preto);
+    color: #fff;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-size: 40px;
+    font-family: Arial Black;
+    margin: 5px;
+    margin-left: 5px;
+    
+}
+
+header nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 10px;
+    
+
+    
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* Filme principal*/
+
+.filmeprincipal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../Imagens/Panteralogo.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.titulo{
+    font-size: 40px;
+}
+
+.filmeprincipal .descricao{
+    margin-bottom: 40px;
+}
