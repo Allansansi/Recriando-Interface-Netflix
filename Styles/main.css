@@ -63,8 +63,37 @@ header nav a:hover{
 
 .titulo{
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
 }
 
 .filmeprincipal .descricao{
     margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    border: none;
+    margin-right: 10px;
+    padding: 15px 30px;
+    transition: 3s ease all;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
